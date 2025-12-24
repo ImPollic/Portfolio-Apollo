@@ -1,0 +1,53 @@
+.header {
+    height: 70px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.headerSecond {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+.headerThird {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+.headerTitle {
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+}
+.headerLink {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    transition: 200ms;
+}
+.headerLink:hover {
+    color: #93B0D5;
+}
+.headerButton {
+   
+    border: none;
+    color: white;
+    background: transparent;
+    font-size: 28px;
+    cursor: pointer;
+    transition: 200ms;
+    font-family: "Outfit", sans-serif;
+}
+.headerButtonActive {
+    color: #93B0D5;
+    font-weight: 500;
+}
