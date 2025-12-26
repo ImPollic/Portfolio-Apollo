@@ -1,0 +1,26 @@
+.scrolldiv {
+    width: 100%;
+    height: 100px;
+    background: #81bad2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    gap: 0;
+}
+.scrolldivto {
+    background-color: black;
+}
+.p {
+    margin: 0;
+}
+.pD {
+    margin: 0;
+    font-style: italic;
+    font-weight: 300;
+}

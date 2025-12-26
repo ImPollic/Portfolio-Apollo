@@ -1,0 +1,15 @@
+.tools {
+    height: 100vh;
+    background: white;
+    padding: 50px;
+}
+
+.toolstitle {
+    font-size: 48px;
+    font-weight: 400;
+}
+.toolsdesc {
+    font-size: 25px;
+    font-weight: 300;
+    text-indent: 20px;
+}

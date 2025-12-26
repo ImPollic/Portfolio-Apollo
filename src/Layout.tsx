@@ -4,7 +4,7 @@ import './index.css'
 // Componentes da UI
 import Header from "./components/header/Header"
 import Footer from "./components/footer/Footer"
-import ScrollDown from "./components/scrolldown/ScrollDown"
+import { ScrollDown, ScrollDownTwo } from "./components/scrolldown/ScrollDown"
 import Welcome from "./pages/welcome/Welcome"
 import About from "./pages/about/About"
 import Tools from "./pages/tools/Tools"
@@ -23,9 +23,10 @@ export default function Layout () {
         <Header idioma={idioma} setIdioma={setIdioma} />
         <main>
             <Welcome idioma={idioma}/>
-            <ScrollDown />
-            <About />
-            <Tools/>
+            <ScrollDown idioma={idioma}/>
+            <About idioma={idioma}/>
+            <ScrollDownTwo idioma={idioma}/>
+            <Tools idioma={idioma}/>
             <Projects />
             <OtherProjects />
             <Contacts/>
